@@ -1,0 +1,16 @@
+{
+  "name": "sample-fake-backend",
+  "version": "1.0.0",
+  "description": "Fake backend for when you don't need actual data",
+  "repository": "asharov/sample-fake-backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jaakko Kangasharju <jkan@futurice.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "json-server": "^0.11.2"
+  }
+}

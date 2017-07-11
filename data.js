@@ -2,7 +2,7 @@ var faker = require('faker');
 
 module.exports = () => {
   var users = [];
-  faker.seed(process.env.FAKER_SEED || 12345);
+  faker.seed(Number(process.env.FAKER_SEED || 12345));
   for (let i = 0; i < 100; ++i) {
     users.push({
       'id': i,

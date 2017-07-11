@@ -8,5 +8,5 @@ var middlewares = jsonServer.defaults();
 server.use(middlewares);
 server.use(router);
 
-var port = process.env.PORT || 3000;
+var port = Number(process.env.PORT || 3000);
 server.listen(port);
